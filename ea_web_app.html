@@ -1,0 +1,23 @@
+<div class="bidOptions">
+    <div class="buttonInfo bidSpinner">
+        <button class="btn-standard decrement-value disabled" disabled=""></button>
+        <div class="inputBox">
+            <input type="tel" class="numericInput filled" placeholder="None">
+        </div>
+        <button class="btn-standard increment-value disabled" disabled=""></button>
+    </div>
+        <button class="btn-standard call-to-action bidButton">Make Bid</button>
+        <button class="btn-standard buyButton coins" onclick="alert('Clicou')">Buy Now for 200</button>
+</div>
+
+<button onclick="findMe()">Test Me</button>
+
+<script>
+    function findMe(){
+        var buyNow = document.getElementsByClassName("btn-standard buyButton");
+
+        console.log(buyNow);
+
+        //buyNow[0].click();
+    }
+</script>

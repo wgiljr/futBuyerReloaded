@@ -1,0 +1,27 @@
+<div class="bidOptions">
+    <div class="buttonInfo bidSpinner">
+        <button class="btn-standard decrement-value disabled" disabled=""></button>
+        <div class="inputBox">
+            <input type="tel" class="numericInput filled" placeholder="None">
+        </div>
+        <button class="btn-standard increment-value disabled" disabled=""></button>
+    </div>
+        <button class="btn-standard call-to-action bidButton">Make Bid</button>
+        <button class="btn-standard buyButton coins">Buy Now for 200</button>
+</div>
+
+
+
+
+<section class="Dialog ui-dialog-type-message">
+    <header>
+        <h1 class="dialog-title">Buy Now</h1>
+    </header>
+    <div class="dialog-body">
+        <p class="dialog-msg">Are you sure you want to buy this item for 200 coins?</p>
+        <footer class="dialog-footer">
+            <button class="flat">Cancel</button>
+            <button class="flat">Ok</button>
+        </footer>
+    </div>
+</section>
